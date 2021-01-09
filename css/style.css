@@ -1,0 +1,178 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: mama;
+	src: url('../fonts/SourceCodePro-Medium.ttf'); 
+}
+@font-face{
+	font-family: papa;
+	src: url('../fonts/DancingScript-VariableFont_wght.ttf')
+}
+.container{
+	max-width: 1300px;
+	margin: 2% auto;
+	display: flex;
+	justify-content: flex-end;
+}
+h1{
+	font-family: papa;
+}
+
+.mob{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.mob img{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	
+} 
+.round img{
+	border-radius: 50%;
+}
+.carr{
+	position: absolute;
+	top: 100%;
+	left: 0;
+
+	box-shadow: 5px 5px 8px rgba(0,0,0,.2), -5px -5px 8px rgba(0,0,0,.2);
+	border-radius: 8px;
+	display: none;
+	z-index: 3;
+	background: white;
+}
+.carr1, .carr2, .carr3, .carr4, .carr5, .carr6, .carr7{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100px;
+	box-shadow: 5px 5px 8px rgba(0,0,0,.2), -5px -5px 8px rgba(0,0,0,.2);
+	border-radius: 8px;
+	display: none;
+	z-index: 3;
+	background: white;
+	padding: 10px 5px;
+
+}
+.carr p{
+	padding: 10px;
+}
+.rapho{
+	position: relative;
+}
+.tati{
+	position: relative;
+}
+.rapho:hover .carr2{
+	display: block;
+}
+.tati:hover .carr3{
+	display: block;
+}
+.special{
+font-weight: bold;	
+}
+.armen:hover .carr{
+	display: block;
+}
+.header{
+position: relative;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.tagarmen{
+	position: relative;
+}
+.tagarmen:hover .carr1{
+	display: block;
+}
+
+ul{
+	display: flex;
+	padding-top: 8px;
+	 
+}
+ul li:not(:last-child){
+	padding: 0px 5px;
+}
+header ul li a{
+	text-decoration: none;
+	margin-left: 100px;
+	padding: 2px;
+}
+header ul li{
+	list-style-type: none;
+
+}
+.gif img{
+	width: 100%;
+}
+.sofa{
+	width: 100%;
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;  
+}
+
+.pz9 p{
+	padding: 20px 0px;
+	font-family: mama;
+}
+.pz9{
+	width: 50%;
+}
+.sofa img{
+	width: 50%;
+}
+.pz9 button{
+	background: black;
+	color: #fff;
+	padding: 10px;
+}
+.ga img{
+	padding: 20px;
+	width: 400px;
+	height: 300px;
+}
+.chingchang{
+	display: flex;
+	align-items: flex-end;
+	font-family: mama;
+
+}
+.haha{
+	overflow: hidden;
+	position: relative;
+}
+.haha .de{
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.de h2{
+	color: red;
+	font-size: 40px;
+}
+.de button{
+	color: white;
+	background: red;
+	padding: 15px;
+	margin-top: 40px;
+}
+.de p{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+h3{
+	position: absolute;
+	bottom: 25px;
+}
